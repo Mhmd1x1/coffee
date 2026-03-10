@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-100 to-gray-100 min-h-screen dark:bg-gray-900">
+    <header class="bg-blue-600 dark:bg-gray-800 text-white py-6 mb-8 shadow-md flex justify-between items-center px-4">
+        <h1 class="text-4xl font-extrabold">معرض السيارات</h1>
+    </header>
+    <main class="max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+            <div class="relative">
+                <img src="https://th.bing.com/th/id/OIP.a9miLGow-ws1PNdV0MyOSgHaDs?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Car 1" class="w-full h-48 object-cover">
+                <div class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white w-full p-2 text-sm">Toyota Camry</div>
+                <div class="absolute top-2 right-2 bg-yellow-400 text-black text-xs px-2 py-1 rounded">NEW</div>
+            </div>
+            <div class="p-4 space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center">
+                        <button class="like-btn bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" data-count="0">Like</button>
+                        <span class="ml-2 text-gray-600 like-count">0</span>
+                    </div>
+                    <span class="text-gray-800 font-semibold">عربية ١</span>
+                </div>
+                <p class="text-gray-600 text-sm">السعر: 200,000 ج.م</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+            <div class="relative">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.3J8jk3Ha8BwGGiMnyY_cVgHaEo?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Car 2" class="w-full h-48 object-cover">
+                <div class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white w-full p-2 text-sm">Honda Civic</div>
+            </div>
+            <div class="p-4 space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center">
+                        <button class="like-btn bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" data-count="0">Like</button>
+                        <span class="ml-2 text-gray-600 like-count">0</span>
+                    </div>
+                    <span class="text-gray-800 font-semibold">عربية ٢</span>
+                </div>
+                <p class="text-gray-600 text-sm">السعر: 180,000 ج.م</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+            <div class="relative">
+                <img src="https://www.edmunds.com/assets/m/cs/blt81d804540cc49320/64bec9e8ab018ed63851da8f/24Mustang_OnRoad_05_1600.jpg" alt="Car 3" class="w-full h-48 object-cover">
+                <div class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white w-full p-2 text-sm">Ford Mustang</div>
+            </div>
+            <div class="p-4 space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center">
+                        <button class="like-btn bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" data-count="0">Like</button>
+                        <span class="ml-2 text-gray-600 like-count">0</span>
+                    </div>
+                    <span class="text-gray-800 font-semibold">عربية ٣</span>
+                </div>
+                <p class="text-gray-600 text-sm">السعر: 250,000 ج.م</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+            <div class="relative">
+                <img src="https://i.pinimg.com/736x/b7/39/58/b7395817fe31c31fda81ab966e144c34.jpg" alt="Car 4" class="w-full h-48 object-cover">
+                <div class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white w-full p-2 text-sm">Mini Cooper</div>
+            </div>
+            <div class="p-4 space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center">
+                        <button class="like-btn bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" data-count="0">Like</button>
+                        <span class="ml-2 text-gray-600 like-count">0</span>
+                    </div>
+                    <span class="text-gray-800 font-semibold">عربية ٤</span>
+                </div>
+                <p class="text-gray-600 text-sm">السعر: 150,000 ج.م</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+            <div class="relative">
+                <img src="https://cdn.dotkeypress.kr/dotkeypress/2024/11/05150240/BMW-3%EC%8B%9C%EB%A6%AC%EC%A6%88-%EC%84%B8%EB%8B%A8-%ED%88%AC%EC%96%B4%EB%A7%81-%EB%B6%80%EB%B6%84%EB%B3%80%EA%B2%BD-1.jpg" alt="Car 5" class="w-full h-48 object-cover">
+                <div class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white w-full p-2 text-sm">BMW 3 Series</div>
+            </div>
+            <div class="p-4 space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center">
+                        <button class="like-btn bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" data-count="0">Like</button>
+                        <span class="ml-2 text-gray-600 like-count">0</span>
+                    </div>
+                    <span class="text-gray-800 font-semibold">عربية ٥</span>
+                </div>
+                <p class="text-gray-600 text-sm">السعر: 220,000 ج.م</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+            <div class="relative">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.b3LpvUqijeB7pX0dwV31OwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Car 6" class="w-full h-48 object-cover">
+                <div class="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white w-full p-2 text-sm">Mercedes C-Class</div>
+            </div>
+            <div class="p-4 space-y-2">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center">
+                        <button class="like-btn bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600" data-count="0">Like</button>
+                        <span class="ml-2 text-gray-600 like-count">0</span>
+                    </div>
+                    <span class="text-gray-800 font-semibold">عربية ٦</span>
+                </div>
+                <p class="text-gray-600 text-sm">السعر: 240,000 ج.م</p>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer class="text-center text-gray-500 mt-12 mb-6">
+        &copy; 2026 معرض السيارات
+    </footer>
+
+
+</body>
+</html>
